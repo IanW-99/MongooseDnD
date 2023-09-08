@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    background-color: #f6a241;
+    background-image: url('/media/dndbanner.png');
+    background-position: center;
+    width: 100vw;
+    height: 320px;
+}
