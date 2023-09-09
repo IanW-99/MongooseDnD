@@ -20,12 +20,16 @@ body, html {
 
 #banner-landing {
     background-color: #f6a241;
-    background-image: url('https://ianw-99.github.io/MongooseDnD/media/dndbanner.png');
     background-position: center;
     max-width: 100%;
     height: 200px;
     background-repeat: no-repeat;
+}
 
+#banner-landing-text {
+    text-align: center;
+    font-size: 72px;
+    padding: 15px;
 }
 
 #left-col-landing { 
