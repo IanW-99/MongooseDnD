@@ -3,12 +3,34 @@
     padding: 0px;
 }
 
-#banner {
+body, html {
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+#banner-landing {
     background-color: #f6a241;
     background-image: url('https://ianw-99.github.io/MongooseDnD/media/dndbanner.png');
     background-position: center;
     max-width: 100%;
-    height: 320px;
+    height: 200px;
     background-repeat: no-repeat;
 
+}
+
+#left-col-landing { 
+    width: 60%;
+    float: left;}
+
+#right-col-landing {
+    width: 40%;
+    float: right;
+}
+
+.wrapper {
+    max-width: 100%;
+    min-height: 100%;
+    background-color: dimgray;
+    overflow: auto;
 }
